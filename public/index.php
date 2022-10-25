@@ -6,11 +6,14 @@ $router = new Router();
 
 $router->add('',['controller' => 'Home', 'action' => 'index']);
 $router->add('addproduct',['controller' => 'Product', 'action' => 'index']);
+$router->add('{controller}/{action}');
+$router->add('{controller}/{id:\d+}/{action}');
 
 // Display the routing table
-// echo '<pre>';
+echo '<pre>';
 // var_dump($router->getRoutes());
-// echo '</pre>';
+echo htmlspecialchars(print_r($router->getRoutes(), true));
+echo '</pre>';
 
 $url = $_SERVER['QUERY_STRING'];
 
