@@ -1,9 +1,15 @@
 <?php
 
-class AddProduct
+namespace app\controllers;
+use core\RenderView;
+
+require_once('../core/RenderView.php');
+require '../core/Controller.php';
+
+class AddProduct extends \core\Controller
 {
     public function index()
     {
-        echo 'Hello from the index action in the AddProduct controller!';
+        RenderView::render('addproduct.php');
     }
 }

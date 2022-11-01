@@ -1,9 +1,13 @@
 <?php
 
+namespace app\controllers;
+use core\RenderView;
+require_once('../core/RenderView.php');
+
 class Home
 {
     public function index()
     {
-        echo 'Hello from the index action in the Home controller!';
+        RenderView::render('index.php');
     }
 }
