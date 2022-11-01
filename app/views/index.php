@@ -7,17 +7,22 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <title>Document</title>
     <style>
-        #header {
-            border-bottom: 2px;
-            border-bottom-style: solid;
-            border-bottom-color: black;
-        }
-        #product-display {
-            border: 1px;
-            border-style: solid;
-            border-color: black;
-            border-radius: 8px;
-        }
+    #header {
+        border-bottom: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: black;
+    }
+    #product-display {
+        border: 1px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 8px;
+    }
+    .footer {
+        border-top: 2px;
+        border-top-style: solid;
+        border-top-color: black;
+    }
     </style>
 </head>
 <body>
@@ -127,6 +132,9 @@
             </div>
         </div>
 
+        <footer class="footer has-text-centered">
+            Scandiweb Test Assignment
+        </footer>
     </div>
 </body>
 </html>
