@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <title>Document</title>
+    <title>Product List</title>
     <style>
     #header {
         border-bottom: 2px;
@@ -26,6 +26,11 @@
     </style>
 </head>
 <body>
+    <?php
+    use app\models\Product;
+    $products = Product::getAll();
+    echo '<pre>'; print_r($products); echo '</pre>';
+    ?>
     <div class="container">
         <div class="columns" id="header">
             <div class="column is-four-fifths mt-6 has-text-black">
