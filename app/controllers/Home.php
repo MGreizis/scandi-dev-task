@@ -15,6 +15,5 @@ class Home
         RenderView::render('index.php', [
             'products' => $products
         ]);
-        // RenderView::render('index.php');
     }
 }
