@@ -36,7 +36,8 @@
                 <button class="button is-link">Save</button>
             </div>
             <div class="column mt-6 has-text-black">
-                <a href="/"><button class="button is-link" id="delete-product-btn">Cancel</button></a>
+                <a href="/"><button class="button is-link"
+                id="delete-product-btn">Cancel</button></a>
             </div>
         </div>
 
@@ -51,7 +52,8 @@
                     <div class="level-item">
                         <div class="field has-addons">
                             <p class="control">
-                                <input class="input is-black" type="text" placeholder="SKU" id="sku">
+                                <input class="input is-black" type="text"
+                                placeholder="SKU" id="sku">
                             </p>
                         </div>
                     </div>
@@ -67,7 +69,8 @@
                     <div class="level-item">
                         <div class="field has-addons">
                             <p class="control">
-                                <input class="input is-black" type="text" placeholder="Name" id="name">
+                                <input class="input is-black" type="text"
+                                placeholder="Name" id="name">
                             </p>
                         </div>
                     </div>
@@ -83,7 +86,8 @@
                     <div class="level-item">
                         <div class="field has-addons">
                             <p class="control">
-                                <input class="input is-black" type="text" placeholder="Price" id="price">
+                                <input class="input is-black" type="text"
+                                placeholder="Price" id="price">
                             </p>
                         </div>
                     </div>
@@ -114,7 +118,8 @@
                         <div class="level-item">
                             <div class="field has-addons">
                                 <p class="control">
-                                    <input class="input is-black" type="text" placeholder="Size" id="size">
+                                    <input class="input is-black" type="text"
+                                    placeholder="Size" id="size">
                                 </p>
                             </div>
                         </div>
@@ -130,7 +135,8 @@
                         <div class="level-item">
                             <div class="field has-addons">
                                 <p class="control">
-                                    <input class="input is-black" type="text" placeholder="Height" id="height">
+                                    <input class="input is-black" type="text"
+                                    placeholder="Height" id="height">
                                 </p>
                             </div>
                         </div>
@@ -146,7 +152,8 @@
                         <div class="level-item">
                             <div class="field has-addons">
                                 <p class="control">
-                                    <input class="input is-black" type="text" placeholder="Width" id="width">
+                                    <input class="input is-black" type="text"
+                                    placeholder="Width" id="width">
                                 </p>
                             </div>
                         </div>
@@ -162,7 +169,8 @@
                         <div class="level-item">
                             <div class="field has-addons">
                                 <p class="control">
-                                    <input class="input is-black" type="text" placeholder="Length" id="length">
+                                    <input class="input is-black" type="text"
+                                    placeholder="Length" id="length">
                                 </p>
                             </div>
                         </div>
@@ -178,7 +186,8 @@
                         <div class="level-item">
                             <div class="field has-addons">
                                 <p class="control">
-                                    <input class="input is-black" type="text" placeholder="Weight" id="weight">
+                                    <input class="input is-black" type="text"
+                                    placeholder="Weight" id="weight">
                                 </p>
                             </div>
                         </div>

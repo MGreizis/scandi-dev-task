@@ -37,10 +37,13 @@
                 <h1 class="title">Product List</h1>
             </div>
             <div class="column mt-6 has-text-black">
-                <a href="addproduct/index"><button class="button is-link">Add</button></a>
+                <a href="addproduct/index"><button class="button is-link">
+                    Add</button></a>
             </div>
             <div class="column mt-6 has-text-black">
-                <button class="button is-link" id="delete-product-btn">Mass Delete</button>
+                <button class="button is-link" id="delete-product-btn">
+                    Mass Delete
+                </button>
             </div>
         </div>
 
